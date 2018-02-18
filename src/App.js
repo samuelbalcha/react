@@ -71,22 +71,10 @@ class App extends Component {
         });
     };
 
-    onUpdate = (evt, id) => {
-        let persons = [...this.state.persons];
-
-       // console.log('evt', evt, 'per', person)
-        /*
-        this.setState({
-            persons: persons
-        });
-        */
-    };
-
 
 	render() {
 	    let myFamily = <Persons persons={this.state.persons}
                                 nameChanged={this.onNameChanged}
-                                update={this.onUpdate}
                                 click={this.onPersonDeleted} />;
 
 		return (
