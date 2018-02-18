@@ -1,0 +1,21 @@
+.Person{
+    margin: auto;
+    width: 200px;
+    height: 120px;
+    border: 1px solid #eee;
+    padding: 16px;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Person button {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.Person button:hover {
+   background: #cccccc;
+    border-radius: 3px;
+    color: white;
+}
